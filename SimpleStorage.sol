@@ -6,12 +6,25 @@ contract SimpleStorage {
     bool hasFavoriteNumber;
     bool hasFavoriteFruit = true;
 
-    uint public  favoriteNumber;
-    string favoriteIntNumberInText = "nine1nine";
+    uint256 myFavoriteNumber;
 
-    function store(uint _favoriteNumber) public {
-        favoriteNumber = _favoriteNumber;
+    uint256[] listOfFavoriteNumber;
+
+    struct Person{
+        uint256 favoriteNumber;
+        string name;
     }
 
-    // address thisContract = 0xd9145CCE52D386f254917e481eB44e9943F39138;
+    Person[] public listOfPeople;
+
+    Person public anders = Person(31, "Anders");
+    Person public bob = Person({favoriteNumber: 28, name: "Bob"});
+
+    function store(uint _favoriteNumber) public {
+        myFavoriteNumber = _favoriteNumber;
+    }
+
+    function retreive() public view returns(uint256) {
+        return myFavoriteNumber;
+    }
 }

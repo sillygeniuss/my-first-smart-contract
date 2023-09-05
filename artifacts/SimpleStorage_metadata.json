@@ -7,7 +7,67 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "favoriteNumber",
+				"name": "anders",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bob",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retreive",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +120,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0x14bb1fea97e9b7c26f5464300bfdd02255e26e876c1eb2df93946b9aaa81a91b",
+			"keccak256": "0x1d618107b7a626d25315199936189fccb329037c89c397bf36dbb5b65c911b9e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0c176223c765ba477f170db5e60ec15d1f60b685154572e3ae9ba8dabc19d265",
-				"dweb:/ipfs/QmZFi3Mew228rCgUNg5naMdFMkcR4F7qGDuQKQCnAdM76s"
+				"bzz-raw://df695cbf125b86c950b0c565858393a8222f4b65d919c3501f2e604e7530f045",
+				"dweb:/ipfs/Qme5hCmKaBzB39YGW2cTqxyshhkjZJvENVo8bVMeX2RwDC"
 			]
 		}
 	},
