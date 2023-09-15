@@ -10,7 +10,7 @@ contract SimpleStorage {
 
     uint256[] listOfFavoriteNumber;
 
-    struct Person{
+    struct Person {
         uint256 favoriteNumber;
         string name;
     }
@@ -23,7 +23,7 @@ contract SimpleStorage {
         myFavoriteNumber = _favoriteNumber;
     }
 
-    function retreive() public view returns(uint256) {
+    function retreive() public view returns (uint256) {
         return myFavoriteNumber;
     }
 
@@ -32,3 +32,7 @@ contract SimpleStorage {
         nameToFavoriteNum[_name] = _favoriteNumber;
     }
 }
+
+contract SimpoleStorage2 {}
+
+contract SimpoleStorage3 {}
